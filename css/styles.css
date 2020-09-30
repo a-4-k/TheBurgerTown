@@ -81,7 +81,7 @@ p{
 
 /* Testimonials */
 #testimonials{
-  background-image: url("file:///C:/Users/khait/Desktop/BurgerTown/BurgerTown-Start-master/images/testimonial-bg.jpg");
+  background-image: url("https://raw.githubusercontent.com/a-4-k/TheBurgerTown/master/images/testimonial-bg.jpg");
   background-size: cover;
   color:#1a1a1a;
 }
@@ -105,7 +105,7 @@ p{
 
 /* Menu.html  Pricing*/
  #menu{
-  background-image:url("file:///C:/Users/khait/Desktop/BurgerTown/BurgerTown-Start-master/images/fast-food.jpg");
+  background-image:url("https://raw.githubusercontent.com/a-4-k/TheBurgerTown/master/images/fast-food.jpg");
   background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
