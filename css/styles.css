@@ -1,0 +1,208 @@
+/* HTML Elements */
+body{
+  font-family: 'Montserrat-regular', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  color:#8f8f8f;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+  /* Headings */
+.big-heading{
+  font-family: 'Charmonman', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+.small-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  }
+/* -------------------------------------------------------------------------------- */
+
+/* navbar links */
+
+.nav-images{
+  width:2.5rem;
+}
+
+.navbar-brand{
+  font-family:'Ubuntu';
+  font-size: 2.5rem;
+  font-weight:500;
+  margin-left:1rem;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat-light', sans-serif;
+  font-size:1.25rem;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+/* Title */
+#title{
+			background-color: #999;
+      color:#fff;
+      text-align:center;
+}
+.title-bg{
+  background-color: #2c2c2c;
+  color:#fff;
+  position: relative;
+}
+.title-img{
+  width:100%;
+  opacity:0.5;
+  position:relative;
+}
+.big-heading{
+  font-family: 'Charmonman', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  position:absolute;
+  top:20%;
+  left:20%;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* Testimonials */
+#testimonials{
+  background-image: url("file:///C:/Users/khait/Desktop/BurgerTown/BurgerTown-Start-master/images/testimonial-bg.jpg");
+  background-size: cover;
+  color:#1a1a1a;
+}
+.testimonial-text{
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+.carousel-item{
+  padding:7% 15%;
+  text-align: center;
+}
+.testimonial-img{
+  width:400px;
+  margin:20px;
+
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #000;
+  }
+/* -------------------------------------------------------------------------------- */
+
+/* Menu.html  Pricing*/
+ #menu{
+  background-image:url("file:///C:/Users/khait/Desktop/BurgerTown/BurgerTown-Start-master/images/fast-food.jpg");
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+}
+.menu-heading{
+  background-color:#1a1a1a;
+  color:white;
+  font-size: 2.5rem;
+}
+.menu{
+  padding:1.5%;
+}
+.menu-body{
+  background-color:#262626;
+  opacity: 0.99;
+}
+tr{
+  color:white;
+  text-align: left;
+}
+.combo-package{
+  font-size:0.8rem;
+  color:white;
+}
+th{
+  text-align:left;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* About-Us */
+#about-us{
+  background-color: #1a1a1a;
+}
+.about-heading{
+  font-family: 'Montserrat-regular', sans-serif;
+  line-height:2;
+  font-size: 1.8rem;
+  margin-bottom:0;
+  color:#fff;
+}
+.info{
+  color:yellow;
+}
+.info-open{
+  border:7px double yellow;
+}
+.container-fluid{
+  padding:3% 15%;
+}
+.row{
+  border:10px double white;
+}
+.aboutus-img{
+  width:80%;
+  transform: rotate(25deg);
+  position:relative;
+  right:10%;
+}
+.about-container
+{
+  margin:50px auto;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* Footer */
+#footer{
+  background-color: #fff;
+  background-size: cover;
+  color:#000;
+  text-align:center;
+  padding:2% 15%;
+  border: 3px solid black;
+}
+.footer-logo{
+  color:#4d4d4d;
+  margin:20px 30px;
+  cursor:pointer;
+}
+.footer-hover:hover{
+  color:#000;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* Resposive */
+@media (max-width:1028px) {
+  #title{
+    text-align:center;
+
+  }
+
+  #pricing{
+    text-align:left;
+  }
+  .aboutus-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
