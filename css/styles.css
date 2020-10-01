@@ -1,7 +1,7 @@
 /* HTML Elements */
 @font-face {
    font-family:Cheesefonts;
-   src: url("https://github.com/a-4-k/TheBurgerTown/blob/master/fonts/spicedcheeseDEMO.otf");
+   src: url("https://github.com/a-4-k/TheBurgerTown/blob/master/fonts/spicedcheeseDEMO.otf?raw=true");
 }
 body {
   font-family: 'Montserrat-regular', sans-serif;
@@ -41,7 +41,7 @@ p {
 }
 
 .navbar-brand {
-  font-family:'Cheesefonts';
+  font-family:'Cheesefonts','Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
   margin-left: 1rem;
@@ -244,7 +244,7 @@ p {
 }
 
 .menu-heading {
-  font-family:'Cheesefonts';
+  font-family:'Cheesefonts','Ubuntu';
   background-color: #1a1a1a;
   color: white;
   font-size: 2.0rem;
@@ -312,7 +312,7 @@ td:first-child {
   }
 
   .navbar-brand {
-    font-family: 'Cheesefonts';
+    font-family: 'Cheesefonts','Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
     margin-left: 1rem;
