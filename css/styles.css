@@ -1,4 +1,8 @@
 /* HTML Elements */
+@font-face {
+   font-family:Cheesefonts;
+   src: url("file:///C:/Users/khait/Desktop/BurgerTown/BurgerTown-Start-master/fonts/spicedcheeseDEMO.otf");
+}
 body {
   font-family: 'Montserrat-regular', sans-serif;
   text-align: center;
@@ -37,7 +41,7 @@ p {
 }
 
 .navbar-brand {
-  font-family: 'Ubuntu';
+  font-family:'Cheesefonts';
   font-size: 2.5rem;
   font-weight: 500;
   margin-left: 1rem;
@@ -240,6 +244,7 @@ p {
 }
 
 .menu-heading {
+  font-family:'Cheesefonts';
   background-color: #1a1a1a;
   color: white;
   font-size: 2.0rem;
@@ -307,10 +312,11 @@ td:first-child {
   }
 
   .navbar-brand {
-    font-family: 'Ubuntu';
+    font-family: 'Cheesefonts';
     font-size: 1.5rem;
     font-weight: 500;
     margin-left: 1rem;
+
   }
 
   .big-heading {
