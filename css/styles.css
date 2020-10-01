@@ -1,7 +1,7 @@
 /* HTML Elements */
 @font-face {
    font-family:Cheesefonts;
-   src: url("file:///C:/Users/khait/Desktop/BurgerTown/BurgerTown-Start-master/fonts/spicedcheeseDEMO.otf");
+   src: url(spicedcheeseDEMO.otf);
 }
 body {
   font-family: 'Montserrat-regular', sans-serif;
