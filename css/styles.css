@@ -41,7 +41,7 @@ p {
 }
 
 .navbar-brand {
-  font-family:'Cheesefonts','Montserrat', sans-serif;
+  font-family:'Cheesefonts','Montserrat-Regular', sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
   margin-left: 1rem;
@@ -312,7 +312,7 @@ td:first-child {
   }
 
   .navbar-brand {
-    font-family: 'Cheesefonts','Montserrat', sans-serif;
+    font-family: 'Cheesefonts','Montserrat-Regular', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
     margin-left: 1rem;
