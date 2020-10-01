@@ -74,8 +74,10 @@ p{
   font-size: 3.5rem;
   line-height: 1.5;
   position:absolute;
-  top:20%;
-  left:20%;
+  top: 10%;
+  left: 15%;
+  padding-top: 4%;
+  padding-right: 60%
 }
 /* -------------------------------------------------------------------------------- */
 
@@ -109,10 +111,11 @@ p{
 }
 .about-heading{
   font-family: 'Montserrat-regular', sans-serif;
-  line-height:2;
+  line-height: 1.8;
+    color: #fff;
+    padding-top: 15%;
   font-size: 1.8rem;
-  margin-bottom:0;
-  color:#fff;
+
 }
 .info{
   color:yellow;
@@ -121,13 +124,13 @@ p{
   border:7px double yellow;
 }
 .container-fluid{
-  padding:3% 15%;
+  padding:3%;
 }
 .row{
   border:10px double white;
 }
 .aboutus-img{
-  width:80%;
+  width:60%;
   transform: rotate(25deg);
   position:relative;
   right:10%;
@@ -135,6 +138,7 @@ p{
 .about-container
 {
   margin:50px auto;
+  padding:0;
 }
 /* -------------------------------------------------------------------------------- */
 
@@ -159,22 +163,35 @@ p{
 /* -------------------------------------------------------------------------------- */
 
 /* Resposive */
-@media (max-width:1028px) {
+@media screen and (max-width:1028px) {
   #title{
     text-align:center;
 
   }
-
-  #pricing{
-    text-align:left;
+  .about-container
+    {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .row{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .about-heading
+    {
+    padding-top: 15%;
+    padding-bottom: 0px;
+    padding-right: 15%;
+    padding-left: 15%
   }
   .aboutus-img{
+    width: 50%;
     position: static;
     transform: rotate(0);
   }
  }
 
-/* --------------------------------------------------------------------------------------- */ 
+/* --------------------------------------------------------------------------------------- */
 .topnav {
   overflow: hidden;
   background-color: #333;
