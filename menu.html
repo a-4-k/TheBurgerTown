@@ -1,422 +1,425 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <title>BurgerTown</title>
-
-  <!-- CSS STYLES -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css">
 
 
-  <!-- BOOTSTRAP SCRIPTS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- BOOTSTRAP SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-  <!-- GOOGLE FONTS -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
 
-  <!-- FONT AWESOME -->
-  <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+<!-- FONT AWESOME -->
+<script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
 </head>
-
+</head>
 <body>
-  <section id="menu">
-    <nav class="navbar  bg-dark navbar-dark">
-      <a href="index.html">
-      <img class="nav-images" src="images/hamburger.png" alt="Burger"></a>
-      <a class="navbar-brand mr-auto" href="">Menu</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#Burger">Burgers</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Fries">Fries & Baked</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Waffles">Waffles</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Beverages">Beverages</a></li>
-          <li class="nav-item"><a class="nav-link" href="#MB">Mini Burgers</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Combos">Combos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Add-Ons">Add on & 8 POOL</a></li>
-        </ul>
+
+<div class="topnav" id="myTopnav">
+  <a href=".index.html" class="active">Home</a>
+  <a href="#Burger">Burger</a>
+  <a href="#Fries">Fries & Bakes</a>
+  <a href="#Waffles">Waffles</a>
+  <a href="#Beverages">Beverages</a>
+  <a href="#MB">Mini Burgers</a>
+  <a href="#Combos">Combos</a>
+  <a href="#Add-Ons">Add Ons</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<section id="menu">
+  <div class="container-fluid-menu">
+  <div class="row" style="margin:0; border:0">
+    <div id="Burger" class="col-lg-6 col-sm-12 menu">
+      <div class="menu-heading">
+        Burger(Veg)
       </div>
-    </nav>
-    <div class="container-fluid-menu">
-      <div class="row" style="margin:0; border:0">
-        <div id="Burger" class="col-lg-6 col-sm-12 menu">
-          <div class="menu-heading">
-            Burger(Veg)
-          </div>
-          <div class="menu-body ">
-            <table class="table table-borderless">
-              <tbody>
-                <tr>
-                  <td>Aloo Chilli Lava</td>
-                  <td>120</td>
-                </tr>
-                <tr>
-                  <td>Aloo Messy</td>
-                  <td>130</td>
-                </tr>
-                <tr>
-                  <td>Aloo Double Decker</td>
-                  <td>160</td>
-                </tr>
-                <tr>
-                  <td>Paneer Chilli Lava</td>
-                  <td>140</td>
-                </tr>
-                <tr>
-                  <td>Messy Paneer</td>
-                  <td>150</td>
-                </tr>
-                <tr>
-                  <td>Paneer Double Decker</td>
-                  <td>190</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div id="Burger" class="col-lg-6 col-sm-12 menu">
-          <div class="menu-heading">
-            Burger(Non-Veg)
-          </div>
-          <div class="menu-body ">
-            <table class="table table-borderless">
-              <tbody>
-                <tr>
-                  <td>Omelette Chilli Lava</td>
-                  <td>130</td>
-                </tr>
-                <tr>
-                  <td>Messy Omelette</td>
-                  <td>140</td>
-                </tr>
-                <tr>
-                  <td>Omelette Double Decker</td>
-                  <td>160</td>
-                </tr>
-                <tr>
-                  <td>Chicken Chilli Lava</td>
-                  <td>160</td>
-                </tr>
-                <tr>
-                  <td>Chicken Messy</td>
-                  <td>180</td>
-                </tr>
-                <tr>
-                  <td>Chicken Double Decker</td>
-                  <td>220</td>
-                </tr>
-                <tr>
-                  <td>Mutton Chilli Lava</td>
-                  <td>210</td>
-                </tr>
-                <tr>
-                  <td>Mutton Messy</td>
-                  <td>230</td>
-                </tr>
-                <tr>
-                  <td>Mutton Double Decker</td>
-                  <td>280</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div id="Fries" class="col-lg-6 col-sm-12 menu">
-          <div class="menu-heading">
-            Fries and Bakes
-          </div>
-          <div class="menu-body">
-            <table class="table table-borderless">
-              <tbody>
-                <tr>
-                  <td>Salted Fries</td>
-                  <td>60</td>
-                </tr>
-                <tr>
-                  <td>Peri Peri Fries</td>
-                  <td>75</td>
-                </tr>
-                <tr>
-                  <td>Fries in Savory</td>
-                  <td>90</td>
-                </tr>
-                <tr>
-                  <td>Paneer Cheezy Bake</td>
-                  <td>200</td>
-                </tr>
-                <tr>
-                  <td>Chicken Cheezy Bake</td>
-                  <td>230</td>
-                </tr>
-                <tr>
-                  <td>Mutton Cheezy Bake</td>
-                  <td>280</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div id="Waffles" class="col-lg-6 col-sm-12 menu">
-          <div class="menu-heading">
-            Waffles
-          </div>
-          <div class="menu-body">
-            <table class="table table-borderless">
-              <tbody>
-                <tr>
-                  <td>Vanilla/Red Velvet</td>
-                  <td>60/90</td>
-                </tr>
-                <tr>
-                  <td>with Choco & Nuts</td>
-                  <td>40/60</td>
-                </tr>
-                <tr>
-                  <td>with Ice Cream & nuts</td>
-                  <td>50/80</td>
-                </tr>
-                <tr>
-                  <td>with Nutella & PnB</td>
-                  <td>90/160</td>
-                </tr>
-                <tr>
-                  <td>with Honey</td>
-                  <td>60/100</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div id="Beverages" class="col-lg-6 col-sm-12 menu">
-          <div class="menu-heading">
-            Beverages(Shakes)
-          </div>
-          <div class="menu-body">
-            <table class="table table-borderless">
-              <tbody>
-                <tr>
-                  <td>Vanilla Shake</td>
-                  <td>70</td>
-                </tr>
-                <tr>
-                  <td>Chocolate Shake</td>
-                  <td>70</td>
-                </tr>
-                <tr>
-                  <td>Mango Shake</td>
-                  <td>70</td>
-                </tr>
-                <tr>
-                  <td>Strawberry Shake</td>
-                  <td>70</td>
-                </tr>
-                <tr>
-                  <td>ButterScotch Shake</td>
-                  <td>70</td>
-                </tr>
-                <tr>
-                  <td>Coffee Shake</td>
-                  <td>80</td>
-                </tr>
-              </tbody>
-            </table>
-
-          </div>
-        </div>
-        <div id="Beverages" class="col-lg-6 col-sm-12 menu">
-          <div class="menu-heading">
-            Beverages(Hot)
-          </div>
-          <div class="menu-body">
-            <table class="table table-borderless">
-              <tbody>
-                <tr>
-                  <td>Coffee</td>
-                  <td>50</td>
-                </tr>
-                <tr>
-                  <td>Black Coffee</td>
-                  <td>30</td>
-                </tr>
-                <tr>
-                  <td>Tea</td>
-                  <td>30</td>
-                </tr>
-                <tr>
-                  <td>Lemon Tea</td>
-                  <td>30</td>
-                </tr>
-                <tr>
-                  <td>Hot Chocolate</td>
-                  <td>80</td>
-                </tr>
-              </tbody>
-            </table>
-
-          </div>
-        </div>
-        <div id="Beverages" class="col-lg-6 col-sm-12 menu">
-          <div class="menu-heading">
-            Beverages(Mocktail)
-          </div>
-          <div class="menu-body">
-            <table class="table table-borderless">
-              <tbody>
-                <tr>
-                  <td>Cool Berg</td>
-                  <td>MRP</td>
-                </tr>
-                <tr>
-                  <td>Cold Drinks</td>
-                  <td>MRP</td>
-                </tr>
-                <tr>
-                  <td>Water Bottle</td>
-                  <td>70</td>
-                </tr>
-                <tr>
-                  <td>Mint Mojito</td>
-                  <td>70</td>
-                </tr>
-                <tr>
-                  <td>Blueberry Mojito</td>
-                  <td>80</td>
-                </tr>
-                <tr>
-                  <td>Green Apple Mojito</td>
-                  <td>80</td>
-                </tr>
-              </tbody>
-            </table>
-
-          </div>
-        </div>
-        <div id="MB" class="col-lg-6 col-sm-12 menu">
-          <div class="menu-heading">
-            Mini Burgers
-          </div>
-          <div class="menu-body">
-            <table class="table table-borderless">
-              <tbody>
-                <tr>
-                  <td>Mini Aloo</td>
-                  <td>49</td>
-                </tr>
-                <tr>
-                  <td>Mini Paneer</td>
-                  <td>59</td>
-                </tr>
-                <tr>
-                  <td>Mini Soya</td>
-                  <td>69</td>
-                </tr>
-                <tr>
-                  <td>Mini Chicken</td>
-                  <td>69</td>
-                </tr>
-                <tr>
-                  <td>Mini Mutton</td>
-                  <td>99</td>
-                </tr>
-              </tbody>
-            </table>
-            <p style="font-size:1.3rem; text-align:left; color:white; padding:1.5%;">Add ₹60 & Make a Mini Combo</p>
-          </div>
-        </div>
-        <div id="Combos" class="col-lg-6 col-sm-12 menu">
-          <div class="menu-heading">
-            Combos
-          </div>
-          <div class="menu-body">
-            <table class="table table-borderless">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Paneer</th>
-                  <th>Chicken</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Meal For One<br /><span class="combo-package">(Messy Burger+Fries+Coke)</span></td>
-                  <td>189</td>
-                  <td>289</td>
-                </tr>
-                <tr>
-                  <td>Meal For Two<br /><span class="combo-package">(2 Messy Burgers+2 Fries+2 Coke)</span></td>
-                  <td>399</td>
-                  <td>459</td>
-                </tr>
-                <tr>
-                  <td>Family Meal<br /><span class="combo-package">(4 Messy Burgers+3 Fries+4 Coke)</span></td>
-                  <td>779</td>
-                  <td>879</td>
-                </tr>
-                <tr>
-                  <td>Party Meal<br /><span class="combo-package">(6 Messy Burgers+4 Fries+6 Coke)</span></td>
-                  <td>1099</td>
-                  <td>1329</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div id="Add-Ons" class="col-lg-6 col-sm-12 menu">
-          <div class="menu-heading">
-            Add Ons
-          </div>
-          <div class="menu-body">
-            <table class="table table-borderless">
-              <tbody>
-                <tr>
-                  <td>Cheese</td>
-                  <td>25</td>
-                </tr>
-                <tr>
-                  <td>Mayo Dip</td>
-                  <td>25</td>
-                </tr>
-                <tr>
-                  <td>Crisps</td>
-                  <td>25</td>
-                </tr>
-                <tr>
-                  <td>Ice Cream</td>
-                  <td>45</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="menu-heading">
-            8 POOL
-          </div>
-          <div class="menu-body">
-            <table class="table table-borderless">
-              <tbody>
-                <tr>
-                  <td>Per Board</td>
-                  <td>40</td>
-                </tr>
-                <tr>
-                  <td>Add on with any combo</td>
-                  <td>30</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+      <div class="menu-body ">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>Aloo Chilli Lava</td>
+              <td>120</td>
+            </tr>
+            <tr>
+              <td>Aloo Messy</td>
+              <td>130</td>
+            </tr>
+            <tr>
+              <td>Aloo Double Decker</td>
+              <td>160</td>
+            </tr>
+            <tr>
+              <td>Paneer Chilli Lava</td>
+              <td>140</td>
+            </tr>
+            <tr>
+              <td>Messy Paneer</td>
+              <td>150</td>
+            </tr>
+            <tr>
+              <td>Paneer Double Decker</td>
+              <td>190</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
+    <div id="Burger" class="col-lg-6 col-sm-12 menu">
+      <div class="menu-heading">
+        Burger(Non-Veg)
+      </div>
+      <div class="menu-body ">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>Omelette Chilli Lava</td>
+              <td>130</td>
+            </tr>
+            <tr>
+              <td>Messy Omelette</td>
+              <td>140</td>
+            </tr>
+            <tr>
+              <td>Omelette Double Decker</td>
+              <td>160</td>
+            </tr>
+            <tr>
+              <td>Chicken Chilli Lava</td>
+              <td>160</td>
+            </tr>
+            <tr>
+              <td>Chicken Messy</td>
+              <td>180</td>
+            </tr>
+            <tr>
+              <td>Chicken Double Decker</td>
+              <td>220</td>
+            </tr>
+            <tr>
+              <td>Mutton Chilli Lava</td>
+              <td>210</td>
+            </tr>
+            <tr>
+              <td>Mutton Messy</td>
+              <td>230</td>
+            </tr>
+            <tr>
+              <td>Mutton Double Decker</td>
+              <td>280</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div id="Fries" class="col-lg-6 col-sm-12 menu">
+      <div class="menu-heading">
+        Fries and Bakes
+      </div>
+      <div class="menu-body">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>Salted Fries</td>
+              <td>60</td>
+            </tr>
+            <tr>
+              <td>Peri Peri Fries</td>
+              <td>75</td>
+            </tr>
+            <tr>
+              <td>Fries in Savory</td>
+              <td>90</td>
+            </tr>
+            <tr>
+              <td>Paneer Cheezy Bake</td>
+              <td>200</td>
+            </tr>
+            <tr>
+              <td>Chicken Cheezy Bake</td>
+              <td>230</td>
+            </tr>
+            <tr>
+              <td>Mutton Cheezy Bake</td>
+              <td>280</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div id="Waffles" class="col-lg-6 col-sm-12 menu">
+      <div class="menu-heading">
+        Waffles
+      </div>
+      <div class="menu-body">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>Vanilla/Red Velvet</td>
+              <td>60/90</td>
+            </tr>
+            <tr>
+              <td>with Choco & Nuts</td>
+              <td>40/60</td>
+            </tr>
+            <tr>
+              <td>with Ice Cream & nuts</td>
+              <td>50/80</td>
+            </tr>
+            <tr>
+              <td>with Nutella & PnB</td>
+              <td>90/160</td>
+            </tr>
+            <tr>
+              <td>with Honey</td>
+              <td>60/100</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div id="Beverages" class="col-lg-6 col-sm-12 menu">
+      <div class="menu-heading">
+        Beverages(Shakes)
+      </div>
+      <div class="menu-body">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>Vanilla Shake</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <td>Chocolate Shake</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <td>Mango Shake</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <td>Strawberry Shake</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <td>ButterScotch Shake</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <td>Coffee Shake</td>
+              <td>80</td>
+            </tr>
+          </tbody>
+        </table>
 
-  </section>
+      </div>
+    </div>
+    <div id="Beverages" class="col-lg-6 col-sm-12 menu">
+      <div class="menu-heading">
+        Beverages(Hot)
+      </div>
+      <div class="menu-body">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>Coffee</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Black Coffee</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Tea</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Lemon Tea</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Hot Chocolate</td>
+              <td>80</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+    <div id="Beverages" class="col-lg-6 col-sm-12 menu">
+      <div class="menu-heading">
+        Beverages(Mocktail)
+      </div>
+      <div class="menu-body">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>Cool Berg</td>
+              <td>MRP</td>
+            </tr>
+            <tr>
+              <td>Cold Drinks</td>
+              <td>MRP</td>
+            </tr>
+            <tr>
+              <td>Water Bottle</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <td>Mint Mojito</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <td>Blueberry Mojito</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Green Apple Mojito</td>
+              <td>80</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+    <div id="MB" class="col-lg-6 col-sm-12 menu">
+      <div class="menu-heading">
+        Mini Burgers
+      </div>
+      <div class="menu-body">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>Mini Aloo</td>
+              <td>49</td>
+            </tr>
+            <tr>
+              <td>Mini Paneer</td>
+              <td>59</td>
+            </tr>
+            <tr>
+              <td>Mini Soya</td>
+              <td>69</td>
+            </tr>
+            <tr>
+              <td>Mini Chicken</td>
+              <td>69</td>
+            </tr>
+            <tr>
+              <td>Mini Mutton</td>
+              <td>99</td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="font-size:1.3rem; text-align:left; color:white; padding:1.5%;">Add ₹60 & Make a Mini Combo</p>
+      </div>
+    </div>
+    <div id="Combos" class="col-lg-6 col-sm-12 menu">
+      <div class="menu-heading">
+        Combos
+      </div>
+      <div class="menu-body">
+        <table class="table table-borderless">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Paneer</th>
+              <th>Chicken</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Meal For One<br /><span class="combo-package">(Messy Burger+Fries+Coke)</span></td>
+              <td>189</td>
+              <td>289</td>
+            </tr>
+            <tr>
+              <td>Meal For Two<br /><span class="combo-package">(2 Messy Burgers+2 Fries+2 Coke)</span></td>
+              <td>399</td>
+              <td>459</td>
+            </tr>
+            <tr>
+              <td>Family Meal<br /><span class="combo-package">(4 Messy Burgers+3 Fries+4 Coke)</span></td>
+              <td>779</td>
+              <td>879</td>
+            </tr>
+            <tr>
+              <td>Party Meal<br /><span class="combo-package">(6 Messy Burgers+4 Fries+6 Coke)</span></td>
+              <td>1099</td>
+              <td>1329</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div id="Add-Ons" class="col-lg-6 col-sm-12 menu">
+      <div class="menu-heading">
+        Add Ons
+      </div>
+      <div class="menu-body">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>Cheese</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Mayo Dip</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Crisps</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Ice Cream</td>
+              <td>45</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="menu-heading">
+        8 POOL
+      </div>
+      <div class="menu-body">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td>Per Board</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>Add on with any combo</td>
+              <td>30</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
-
 </html>
