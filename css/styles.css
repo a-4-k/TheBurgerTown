@@ -246,7 +246,7 @@ p {
 }
 
 #menu {
-  background-image: url(fast-food.jpg);
+  background-image: url("https://raw.githubusercontent.com/a-4-k/TheBurgerTown/master/images/fast-food.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
