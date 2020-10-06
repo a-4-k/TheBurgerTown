@@ -355,14 +355,17 @@ td:first-child {
     text-align: left;
   }
    .footer-column-1{
-    padding:0 0 1rem 0;
+    padding:0;
     margin:auto;
   }
   .footer-column-2{
-    padding:0;
+    padding:1rem 0 0 0;
     margin:auto;
   }
   .QR-image{
     width:5rem;
+  }
+  .footer-text{
+    font-size:0.8rem;
   }
 }
