@@ -369,3 +369,20 @@ td:first-child {
     font-size:0.8rem;
   }
 }
+@media screen and (max-width: 414px) {
+  .navbar-brand {
+    font-family: 'Cheesefonts';
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 1rem;
+  }
+  .navbar-toggler{
+    padding:4px;
+  }
+  .nav-images {
+    width: 4.2rem;
+  }
+  .big-heading {
+    font-family: 'Charmonman', cursive;
+    font-size: 2rem;}
+}
