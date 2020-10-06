@@ -369,7 +369,7 @@ td:first-child {
     font-size:0.8rem;
   }
 }
-@media screen and (max-width: 414px) {
+/* @media screen and (max-width: 414px) {
   .navbar-brand {
     font-family: 'Cheesefonts';
     font-size: 1.2rem;
@@ -385,4 +385,4 @@ td:first-child {
   .big-heading {
     font-family: 'Charmonman', cursive;
     font-size: 2rem;}
-}
+} */
