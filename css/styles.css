@@ -90,7 +90,7 @@ p {
 /* -------------------------------------------------------------------------------- */
 /* Testimonials */
 #testimonials {
-  background-image: url("https://github.com/a-4-k/TheBurgerTown/blob/master/images/Veg-Burger.jpg/testimonial-bg.jpg");
+  background-image: url(testimonial-bg.jpg);
   background-size: cover;
   color: #1a1a1a;
 }
@@ -246,7 +246,7 @@ p {
 }
 
 #menu {
-  background-image: url("https://github.com/a-4-k/TheBurgerTown/blob/master/images/Veg-Burger.jpg/fast-food.jpg");
+  background-image: url(fast-food.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
