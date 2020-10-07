@@ -44,7 +44,6 @@ p {
   font-family:'Cheesefonts';
   font-size: 2.5rem;
   font-weight: 500;
-  margin-left: 1rem;
 }
 
 .nav-item {
@@ -90,7 +89,7 @@ p {
 /* -------------------------------------------------------------------------------- */
 /* Testimonials */
 #testimonials {
-  background-image: url(testimonial-bg.jpg);
+  background-image: url("https://raw.githubusercontent.com/a-4-k/TheBurgerTown/master/images/testimonial-bg.jpg");
   background-size: cover;
   color: #1a1a1a;
 }
@@ -324,10 +323,10 @@ td:first-child {
     font-family: 'Cheesefonts';
     font-size: 1.5rem;
     font-weight: 500;
-    margin-left: 1rem;
-
   }
-
+  button.navbar-toggler{
+    padding:4px;
+  }
   .big-heading {
     font-family: 'Charmonman', cursive;
     font-size: 2.5rem;
@@ -345,8 +344,8 @@ td:first-child {
   }
 
   .testimonial-text {
-    font-size: 2rem;
-    line-height: 1.5;
+    font-size:1.3rem;
+    line-height: 1.2;
   }
 
   .topnav.responsive a {
@@ -369,20 +368,21 @@ td:first-child {
     font-size:0.8rem;
   }
 }
-/* @media screen and (max-width: 414px) {
+ @media screen and (max-width: 370px) {
   .navbar-brand {
     font-family: 'Cheesefonts';
-    font-size: 1.2rem;
+    font-size:1.2rem;
     font-weight: 500;
-    margin-left: 1rem;
+    margin:0;
   }
-  .navbar-toggler{
+  button.navbar-toggler{
     padding:4px;
   }
   .nav-images {
-    width: 4.2rem;
+    width:4rem;
   }
   .big-heading {
     font-family: 'Charmonman', cursive;
-    font-size: 2rem;}
-} */
+    font-size: 2rem;
+  }
+}
